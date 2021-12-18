@@ -8,7 +8,7 @@
         <version>2.6.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.example</groupId>
+    <groupId>com.akorshunov60</groupId>
     <artifactId>student</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>student</name>
@@ -26,13 +26,8 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flywaydb</groupId>
-            <artifactId>flyway-core</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.postgresql</groupId>
-            <artifactId>postgresql</artifactId>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
             <scope>runtime</scope>
         </dependency>
         <dependency>
@@ -75,7 +70,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <repository>github.com/akorshunov60/student-${project.artifactId}/web</repository>
+                    <repository>github.com/akorshunov60-${project.artifactId}/web</repository>
                     <tag>latest</tag>
                     <buildArgs>
                         <JAR_FILE>${project.build.finalName}.jar</JAR_FILE>

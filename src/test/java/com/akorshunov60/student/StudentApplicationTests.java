@@ -1,9 +1,9 @@
-package com.example.student;
+package com.akorshunov60.student;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
+//@SpringBootTest
 class StudentApplicationTests {
 
     @Test
